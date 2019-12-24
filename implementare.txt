@@ -1,0 +1,20 @@
+Saculet (clasa):
+-listalegale
+-listailegale
+-mita
+
+Jucator(clasa):
+-lista obiecte
+-venit
+-saculet(se initiliazeaza la fiecare subrunda):
+-serif true foulse
+-eticheta (basic , greedy , bribe;
+
+
+Runda:
+-nr subrunde
+-nr crt
+-subrunde
+
+Subrunda:
+lista cu jucatori

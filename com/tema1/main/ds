@@ -1,0 +1,51 @@
+List<Integer> auxcards = new ArrayList<>();
+                        for (int h = 0; h < 10; h++) {
+                            auxcards.add(cards.get(0));
+                            cards.remove(0);
+                        }
+                        aux.setCards(auxcards);
+
+                        System.out.println("=========");
+                                        if(j==0&&k==0){
+                                        for (i = 0; i < n; i++){
+                                            aux = players.get(i);
+                                            System.out.println(aux.toString());
+                                        }
+                                        }
+                System.out.println("Runda "+j+" subrundarunda "+k+" e serif id "+sheriff.getId()+" si joaca "+sheriff.getStrategy());
+
+                                        GoodsFactory Factory=GoodsFactory.getInstance();
+                                                        System.out.println(Factory.getGoodsById(2).getProfit());
+CheckSheriff check=new CheckSheriff(sheriff,aux,cards);
+                    check.verify();
+
+
+
+                    //
+        Player aux, aux2, aux3;
+        for (int i = 0; i < n - 1; i++) {
+            aux = players.get(i);
+            for (int j = i + 1; j < n; j++) {
+                aux2 = players.get(j);
+                if (aux.getMoney() < aux2.getMoney()) {
+                    aux3 = aux;
+                    players.set(i, aux2);
+                    players.set(j, aux3);
+                }
+                if (aux.getMoney() == aux2.getMoney())
+                    if (aux.getId()>aux2.getId()){
+                        aux3 = aux;
+                        players.set(i, aux2);
+                        players.set(j, aux3);
+                    }
+            }
+        }
+        for (int i=0;i<n;i++)
+    System.out.println(players.get(i).getId()+" "+players.get(i).getStrategy().toUpperCase()+" "+players.get(i).getMoney());
+    //
+
+
+    for (i = 0; i < n && k==0; i++){
+                        aux = players.get(i);
+                        System.out.println(aux.toString());
+                    }
